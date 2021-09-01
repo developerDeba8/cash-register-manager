@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --primary-color: #047857;
+    --seconray-text-color: 
+    #F9FAFB;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+.heading {
+    color: var(--seconray-text-color);
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.description  {
+    padding: 1rem;
+    text-align: center;
+    color: var(--seconray-text-color);
+}
+
+label {
+    color: var(--seconray-text-color);
+    font-size: larger;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+input {
+    margin: 0rem 2rem;
+    padding: 0.5rem;
+}
+
+#btn-check {
+
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
+    max-width: fit-content;
+    display: block;
+}
+
+#error-messsage {
+    padding: 1rem;
+    text-align: center;
+    color: var(--seconray-text-color);
+}
+
+.table-change-notes caption {
+    color: var(--seconray-text-color); 
+    margin-bottom: 0.5rem;
+}
+
+.table-change-notes, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.table-change-notes {
+    margin: 1rem 1rem;
+    color: var(--seconray-text-color);
+}
+
